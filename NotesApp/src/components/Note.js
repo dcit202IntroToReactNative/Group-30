@@ -1,3 +1,4 @@
+//This defines a Note function which represnts the various part of a note
 import { StyledView, StyledInput } from '../misc/StyledComponents';
 import React, { useRef } from 'react';
 
