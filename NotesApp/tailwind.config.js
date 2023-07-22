@@ -9,7 +9,7 @@ module.exports = {
       'white': '#fff',
     },
     width: {
-      '319': '20rem',
+      '320': '20rem',
     },
     height: {
       '75': '5rem'
