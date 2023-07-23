@@ -8,10 +8,12 @@ import { StyledView, StyledText, StyledTP, StyledImage } from '../misc/StyledCom
 function Home({ navigation }) {
 
 
+        // create a note function
     const createNote = () => {
         navigation.navigate('NewNote')
     }
 
+    
     const noteList = () => {
         navigation.navigate('NoteList')
     }
