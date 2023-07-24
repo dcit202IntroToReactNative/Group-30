@@ -54,7 +54,7 @@ function NoteScreen() {
                     <Note title={title} note={note} onChangeNotes={(text) => setNote(text)} onChangeTitle={(text) => setTitle(text)} />
                     <TouchableOpacity onPress={() => savedNote(title, note)} className='absolute bottom-0 right-0 m-14 mr-4 z-10 rounded-full bg-secondary '>
                         <StyledView className='p-4'>
-                            <Feather name="save" size={36} color="white" />
+                            <Feather name="save" size={34} color="white" />
                         </StyledView>
                     </TouchableOpacity>
                 </StyledView>
