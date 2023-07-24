@@ -34,9 +34,9 @@ function NoteScreen() {
 
     async function loadNotes() {
         try {
-            const value = await AsyncStorage.getItem('notes');
-            const result = JSON.parse(value);
-            if (value !== null) {
+            const note_value = await AsyncStorage.getItem('notes');
+            const result = JSON.parse(note_value);
+            if (note_value !== null) {
                 setNotes(result);
             }
         } catch (error) {
