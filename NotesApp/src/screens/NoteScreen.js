@@ -43,7 +43,6 @@ function NoteScreen() {
 
     useEffect(() => {
         loadNotes();
-        console.log(notes)
     }, []);
 
 
