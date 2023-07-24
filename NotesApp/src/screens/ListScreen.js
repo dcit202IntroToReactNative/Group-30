@@ -52,7 +52,7 @@ function ListScreen({ navigation }) {
                 </StyledView> : null }
             <TouchableOpacity onPress={() => navigation.navigate('NewNote')} className='absolute bottom-0 right-0 m-14 mr-4 z-10 rounded-full bg-secondary'>
                     <StyledView className='p-4'>
-                        <Ionicons name="add" size={36} color="white" />
+                        <Ionicons name="add" size={34} color="white" />
                     </StyledView>
                </TouchableOpacity>
             </StyledView>
