@@ -16,7 +16,7 @@ function NoteScreen() {
 
     async function savedNote(titler, noter) {
         try {
-            const noteObj = { id: Date.now(), titler, noter };
+            const noteObj = {  titler, noter };
             console.log(title)
             console.log(noteObj)
             const updatedNotes = [...notes, noteObj];
