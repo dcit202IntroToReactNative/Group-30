@@ -12,13 +12,6 @@ function NoteList({ item }) {
                 <StyledText className='text-left text-md font-bold' numberOfLines={2}>{titler}</StyledText>
                 <StyledText className='text-left text-sm font-light' numberOfLines={3}>{noter}</StyledText>
             </TouchableOpacity>
-
-            <TouchableOpacity
-
-                
-             
-                
-            </TouchableOpacity>
         </>
 
     );
