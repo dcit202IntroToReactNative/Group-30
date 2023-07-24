@@ -15,6 +15,7 @@ function NoteScreen() {
 
 
     async function savedNote(titler, noter) {
+        //saves your note
         try {
             const noteObj = {  titler, noter };
             console.log(title)
