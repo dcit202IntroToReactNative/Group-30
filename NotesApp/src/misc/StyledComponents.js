@@ -1,3 +1,4 @@
+//This file exports all the basic StyledComponents to be used in other parts of the app
 import { styled } from "nativewind";
 import { View, Text, TouchableOpacity, TextInput, Image} from "react-native";
 
