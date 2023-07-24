@@ -12,15 +12,17 @@ export default function App() {
   const Stack = createNativeStackNavigator();
 
   return (
-    <NavigationContainer>
-      <Stack.Navigator initialRouteName="Home">
+  <RootSibling>
+      <NavigationContainer>
+        <Stack.Navigator initialRouteName="Home">
 
-        <Stack.Screen name="Home" component={Home} options={{headerShown: false}} />
-        <Stack.Screen name="NewNote" component={NoteScreen} options={{headerShown: false}} />
-        <Stack.Screen name="NoteList" component={ListScreen} options={{headerShown: false}} />
+          <Stack.Screen name="Home" component={Home} options={{headerShown: false}} />
+          <Stack.Screen name="NewNote" component={NoteScreen} options={{headerShown: false}} />
+          <Stack.Screen name="NoteList" component={ListScreen} options={{headerShown: false}} />
         
-      </Stack.Navigator>
-    </NavigationContainer>
+        </Stack.Navigator>
+      </NavigationContainer>
+    </RootSibling>
   );
 }
 
