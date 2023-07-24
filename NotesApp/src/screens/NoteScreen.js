@@ -22,7 +22,7 @@ function NoteScreen() {
             const updatedNotes = [...notes, noteObj];
             setNotes(updatedNotes)
             await AsyncStorage.setItem('notes', JSON.stringify(updatedNotes));
-            ToastAndroid.show("Saved Succesfully", ToastAndroid.SHORT)
+            ToastAndroid.show("Saved Succesfully", ToastAndroid.LONG)
 
         } catch (err) {
             console.log(err)
