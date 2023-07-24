@@ -12,7 +12,7 @@ module.exports = {
       '320': '19rem',
     },
     height: {
-      '75': '5rem'
+      '75': '4rem'
     }
   },
   plugins: [],
