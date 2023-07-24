@@ -1,10 +1,10 @@
-//This defines a Note function which represnts the various part of a note
+//This defines a Note function which represents the various part of a note
 import { StyledView, StyledInput } from '../misc/StyledComponents';
 import React, { useRef } from 'react';
 
 
 function Note({title, note, onChangeTitle, onChangeNotes}) {
-
+//defines the main functionality of the app
     const ref_second_input = useRef();
 
     return (
