@@ -21,7 +21,7 @@ function Note({title, note, onChangeTitle, onChangeNotes}) {
             onChangeText={onChangeNotes} 
             value={note} 
             multiline={true}   
-            placeholder='Type anything here.....' 
+            placeholder='Type anything here......' 
             ref={ref_input2}
             
             />
