@@ -1,3 +1,5 @@
+//The Home Page contains all the other page informations and navigations
+
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import  Home from "../NotesApp/src/screens/Home";
