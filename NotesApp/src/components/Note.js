@@ -17,7 +17,7 @@ function Note({title, note, onChangeTitle, onChangeNotes}) {
             returnKeyType="next"
             onSubmitEditing={() => ref_input2.current.focus()}/>
 
-            <StyledInput className='mt-1 px-5 font-medium text-xl text-left' 
+            <StyledInput className='mt-1 px-5 font-medium text-lg text-left' 
             onChangeText={onChangeNotes} 
             value={note} 
             multiline={true}   
