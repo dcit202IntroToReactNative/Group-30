@@ -19,14 +19,14 @@ function ListScreen({ navigation }) {
             setItems(result);
           }
         } catch (error) {
-          console.log(error);
+          //console.log(error);
           ToastAndroid.show("Error loading notes", ToastAndroid.SHORT)
         }
       }
 
     useEffect(() => {
         findNotes();
-        console.log(items)
+        //console.log(items)
     },[]);
 
 
