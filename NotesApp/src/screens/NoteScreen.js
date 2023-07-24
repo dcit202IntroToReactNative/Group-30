@@ -13,9 +13,6 @@ function NoteScreen() {
     const [note, setNote] = useState('');
     const [notes, setNotes] = useState([]);
 
-    {/*useEffect(() => {
-        AsyncStorage.clear()
-    });*/}
 
     async function savedNote(titler, noter) {
         try {
