@@ -66,4 +66,4 @@ function NoteScreen() {
     );
 }
 
-export default NoteScreen
+export default NoteScreen;
