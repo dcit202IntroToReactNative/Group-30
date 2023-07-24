@@ -2,6 +2,7 @@
 
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
+import { RootSibling } from 'react-native-root-siblings';
 import  Home from "../NotesApp/src/screens/Home";
 import ListScreen from "../NotesApp/src/screens/ListScreen";
 import NoteScreen from '../NotesApp/src/screens/NoteScreen';
