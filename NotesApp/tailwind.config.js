@@ -6,7 +6,7 @@ module.exports = {
     colors: {
       primary: '#F8EEE2',
       secondary: '#D9614C',
-      'white': '#fff',
+      'white': '#ffffff',
     },
     width: {
       '320': '19rem',
