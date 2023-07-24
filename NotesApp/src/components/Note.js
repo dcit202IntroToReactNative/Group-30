@@ -12,7 +12,7 @@ function Note({title, note, onChangeTitle, onChangeNotes}) {
             <StyledInput className='mt-1 px-4 font-extrabold text-3xl text-left' onChangeText={onChangeTitle} 
             value={title} 
             placeholder='Title' 
-            numberOfLines={2} 
+            numberOfLines={3} 
             autoFocus={true}
             returnKeyType="next"
             onSubmitEditing={() => ref_input2.current.focus()}/>
