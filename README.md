@@ -7,7 +7,7 @@ A Notes App Project Work
 - AsyncStorage
 
 ## Features
-Allows a user to create and store sticky notes
+Allows a user to create and store simple sticky notes
 
 ## Team Members 
 
